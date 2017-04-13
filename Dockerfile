@@ -2,7 +2,7 @@ FROM ruby:2.2
 
 MAINTAINER Matthias Sieber <matthiasksieber@gmail.com>
 
-EXPOSE 8000
+EXPOSE 8001
 
 RUN mkdir -p /usr/src/app
 COPY . /usr/src/app
